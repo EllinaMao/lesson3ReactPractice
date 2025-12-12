@@ -2,7 +2,7 @@
 
 import Counter from "./Counter.jsx";
 
-class OptimisedCounter extends Counter {
+class OptimizedCounter extends Counter {
   constructor(props) {
     super(props);
   }
@@ -22,4 +22,4 @@ class OptimisedCounter extends Counter {
   }
 }
 
-export default OptimisedCounter;
+export default OptimizedCounter;

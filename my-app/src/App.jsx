@@ -1,12 +1,12 @@
 import './css/App.css'
 import Counter from './components/Counter.jsx'
-import OptimisedCounter from './components/OptimisedCounter.jsx'
+import OptimizedCounter from './components/OptimizedCounter.jsx'
 function App() {
 
   return (
     <>
     <Counter />
-    <OptimisedCounter />
+    <OptimizedCounter />
     </>
   )
 }
