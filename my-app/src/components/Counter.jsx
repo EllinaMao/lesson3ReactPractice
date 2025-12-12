@@ -1,6 +1,6 @@
 import React from "react";
 
-class Counter extends React.Component {
+export default class Counter extends React.Component {
   constructor(props) {
     super(props);
     this.state = { count: props.initialValue || 0 };
@@ -18,7 +18,7 @@ class Counter extends React.Component {
     );
   }
 }
-export default Counter;
+
 
 /**Используя компонент Counter из предыдущей задачи, добавьте кнопку с текстом "Увеличить". Реализуйте обработчик события onClick для кнопки, который увеличивает значение count в состоянии на 1 при каждом нажатии. */
 

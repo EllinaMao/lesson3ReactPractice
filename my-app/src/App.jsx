@@ -1,18 +1,20 @@
+/*Practice first part*/
+
 import './css/App.css'
 import Counter from './components/Counter.jsx'
 import OptimizedCounter from './components/OptimizedCounter.jsx'
-import CounterLesson from './components/exampleComponents/Counter-lesson.jsx'
-function App() {
+import TaskList from './components/TaskList.jsx'
+
+export default function App() {
 
   return (
     <>
     <Counter />
     <OptimizedCounter />
-    <CounterLesson />
+    <TaskList />
     </>
   )
 }
 
-export default App
 
 
